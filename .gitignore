@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Python / LaTeX
+.venv/
+__pycache__/
+*.pyc
+relatorio/*.aux
+relatorio/*.log
+*.zip
