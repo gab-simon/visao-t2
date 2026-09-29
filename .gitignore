@@ -54,10 +54,12 @@ dkms.conf
 # debug information files
 *.dwo
 
-# Python / LaTeX
+# Python
 .venv/
 __pycache__/
 *.pyc
-relatorio/*.aux
-relatorio/*.log
 *.zip
+
+# Resultados gerados
+calibracao.npz
+resultados/
