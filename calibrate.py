@@ -8,7 +8,7 @@ CALIB_FILE = Path("calibracao.npz")
 
 PATTERN = (9, 4)  # cantos internos (tabuleiro de 10x5)
 SQUARE_SIZE = 1.0  # to usando o lado do quadrado como unidade
-FLAGS = cv2.CALIB_FIX_K3  # com pouca foto o k3 da uns valores nada a ver
+FLAGS = cv2.CALIB_FIX_K2 | cv2.CALIB_FIX_K3  # k2 e k3 livres davam distorcao demais
 
 
 def image_paths():
